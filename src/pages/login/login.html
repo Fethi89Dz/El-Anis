@@ -3,15 +3,18 @@
       <ion-col col-3></ion-col>
       <ion-col>
           <img src="../assets/imgs/logo-2.svg" alt="" style="margin-top: 80px;">
+          <h3 color="light" style="color:white;">El-Anis</h3>
+          <p color="light" style="color:white;">Your partner in Hajj</p>
       </ion-col>
       <ion-col col-3></ion-col>
     </ion-row>
     <div class="login-box">
       <form (ngSubmit)="login()" #registerForm="ngForm">
+          
         <ion-row>
           <ion-col>
             <ion-list inset>
-              
+                <p color="light" style="color:white;">Enter your email and password then click login</p>
               <ion-item>
                 <ion-input type="text" placeholder="Email" name="email" [(ngModel)]="registerCredentials.email" required></ion-input>
               </ion-item>
